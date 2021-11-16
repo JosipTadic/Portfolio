@@ -3,10 +3,25 @@
 }
 html,
 body {
-  background: rgb(11,0,199);
-  background: -moz-linear-gradient(131deg, rgba(11,0,199,0.6727065826330532) 0%, rgba(0,0,85,0.7679446778711485) 35%, rgba(0,31,37,0.9108018207282913) 100%);
-  background: -webkit-linear-gradient(131deg, rgba(11,0,199,0.6727065826330532) 0%, rgba(0,0,85,0.7679446778711485) 35%, rgba(0,31,37,0.9108018207282913) 100%);
-  background: linear-gradient(131deg, rgba(11,0,199,0.6727065826330532) 0%, rgba(0,0,85,0.7679446778711485) 35%, rgba(0,31,37,0.9108018207282913) 100%);
+  background: rgb(11, 0, 199);
+  background: -moz-linear-gradient(
+    131deg,
+    rgba(11, 0, 199, 0.6727065826330532) 0%,
+    rgba(0, 0, 85, 0.7679446778711485) 35%,
+    rgba(0, 31, 37, 0.9108018207282913) 100%
+  );
+  background: -webkit-linear-gradient(
+    131deg,
+    rgba(11, 0, 199, 0.6727065826330532) 0%,
+    rgba(0, 0, 85, 0.7679446778711485) 35%,
+    rgba(0, 31, 37, 0.9108018207282913) 100%
+  );
+  background: linear-gradient(
+    131deg,
+    rgba(11, 0, 199, 0.6727065826330532) 0%,
+    rgba(0, 0, 85, 0.7679446778711485) 35%,
+    rgba(0, 31, 37, 0.9108018207282913) 100%
+  );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0b00c7",endColorstr="#001f25",GradientType=1);
   color: whitesmoke;
   margin: 0;
@@ -21,31 +36,31 @@ ul {
 a {
   color: white;
   text-decoration: none;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 a:hover {
   color: gold;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 h1 {
-  font-family: 'Merriweather', serif;
-  
+  font-family: "Merriweather", serif;
+
   font-size: 2.1rem;
 }
 h2 {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 1.8rem;
 }
 h3 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1.2rem;
 }
 h4 {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 1.1rem;
 }
 p {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   font-size: 1rem;
 }
 .half-size {
@@ -67,17 +82,17 @@ p {
 }
 .badge {
   display: inline-block;
-  border:0.15em solid #CCCCCC;
+  border: 0.15em solid #cccccc;
   box-sizing: border-box;
   text-decoration: none;
   font-weight: 400;
-  color:#e8e8ff;
-  background-color:#00012e2f;
+  color: #e8e8ff;
+  background-color: #00012e2f;
   border-radius: 25%;
-  margin:0.1em;
+  margin: 0.1em;
   padding: 0.2em;
 }
-.badge-animation:hover{
+.badge-animation:hover {
   box-shadow: 0 -150px 0 0 rgba(174, 186, 255, 0.527) inset;
   cursor: vertical-text;
   -webkit-animation: breathing 5s ease-out infinite normal;
@@ -142,9 +157,19 @@ p {
   color: gold;
 }
 .contact:hover {
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: goldenrod;
   letter-spacing: 0.15em;
 }
@@ -226,24 +251,24 @@ p {
 }
 @media only screen and (max-width: 1081px) {
   h1 {
-    font-family: 'Merriweather', serif;
-    
+    font-family: "Merriweather", serif;
+
     font-size: 1.9rem;
   }
   h2 {
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
     font-size: 1.5rem;
   }
   h3 {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 1.1rem;
   }
   h4 {
-    font-family: 'Dosis', sans-serif;
+    font-family: "Dosis", sans-serif;
     font-size: 1rem;
   }
   p {
-    font-family: 'Inconsolata', monospace;
+    font-family: "Inconsolata", monospace;
     font-size: 0.9rem;
   }
   .border-white {
@@ -340,33 +365,57 @@ p {
     "Footer Footer Footer";
 }
 @media only screen and (min-width: 1082px) {
-.margin-bottom {
-  margin-bottom: 5%;
+  .margin-bottom {
+    margin-bottom: 5%;
+  }
 }
+.Header {
+  grid-area: Header;
 }
-.Header { grid-area: Header; }
 
-.Education { grid-area: Education; }
+.Education {
+  grid-area: Education;
+}
 
-.Education-items { grid-area: Education-items; }
+.Education-items {
+  grid-area: Education-items;
+}
 
-.Work-experience { grid-area: Work-experience; }
+.Work-experience {
+  grid-area: Work-experience;
+}
 
-.Work-experience-items { grid-area: Work-experience-items; }
+.Work-experience-items {
+  grid-area: Work-experience-items;
+}
 
-.Skills { grid-area: Skills; }
+.Skills {
+  grid-area: Skills;
+}
 
-.Skill-items { grid-area: Skill-items; }
+.Skill-items {
+  grid-area: Skill-items;
+}
 
-.Projects { grid-area: Projects; }
+.Projects {
+  grid-area: Projects;
+}
 
-.Project-items { grid-area: Project-items; }
+.Project-items {
+  grid-area: Project-items;
+}
 
-.Footer { grid-area: Footer; }
+.Footer {
+  grid-area: Footer;
+}
 
-.invert { filter: invert(95%); }
+.invert {
+  filter: invert(95%);
+}
 
-.invert:hover { filter: invert(15%); }
+.invert:hover {
+  filter: invert(15%);
+}
 
 @keyframes breathing {
   0% {
@@ -403,7 +452,6 @@ p {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
-    
   }
   50% {
     -webkit-transform: scale(1.1);
@@ -422,7 +470,8 @@ p {
   }
 }
 @keyframes wiggle {
-  0%, 7% {
+  0%,
+  7% {
     transform: rotateZ(0);
   }
   15% {
