@@ -28,11 +28,12 @@ a:hover {
   font-family: 'Ubuntu', sans-serif;
 }
 h1 {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Merriweather', serif;
+  
   font-size: 2.1rem;
 }
 h2 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto Mono', monospace;
   font-size: 1.8rem;
 }
 h3 {
@@ -110,6 +111,10 @@ p {
 .animation-appearing {
   opacity: 1;
 }
+.animation-wiggle {
+  -webkit-animation: wiggle 5s ease-out infinite normal;
+  animation: wiggle 4s ease-out infinite normal;
+}
 .border-white {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
@@ -117,6 +122,9 @@ p {
 .image {
   height: 15%;
   width: 15%;
+}
+.text-justify {
+  text-align: justify;
 }
 .margin-icons {
   margin: 15px 0% 15px 1px;
@@ -139,6 +147,9 @@ p {
   background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: goldenrod;
   letter-spacing: 0.15em;
+}
+.only-display-flex {
+  display: flex;
 }
 .display-flex-header {
   display: flex;
@@ -215,11 +226,12 @@ p {
 }
 @media only screen and (max-width: 1081px) {
   h1 {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.8rem;
+    font-family: 'Merriweather', serif;
+    
+    font-size: 1.9rem;
   }
   h2 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 1.5rem;
   }
   h3 {
@@ -428,7 +440,13 @@ p {
   35% {
     transform: rotateZ(-4deg);
   }
-  40%, 100% {
+  50% {
+    transform: rotateZ(-8deg);
+  }
+  70% {
+    transform: rotateZ(-10deg);
+  }
+  100% {
     transform: rotateZ(0);
   }
 }
